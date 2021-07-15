@@ -21,13 +21,13 @@ Specific rates per GB are still to be confirmed.
 
 We are planning on excluding data usage due to workspaces, caches, and artifacts from the IP Ranges charges. Keep in mind that data usage for these features may be charged separately in the future.
 
-## Syntax to enable IP Ranges - Update 7/15/2021
+## Config Flag to enable IP Ranges - Update 7/15/2021
 
-The syntax to enable the IP Ranges feature has changed.  The new syntax is: 
+The config flag to enable the IP Ranges feature has changed.  The new config flag is: 
 
 ```circleci_ip_ranges: true```
 
-The previous syntax: ```known_outgoing_ip: true``` will continue to work until *August 1, 2021*.  **Please move all configs to use the new flag as soon as possible to avoid job failures**.
+The previous config flag: ```known_outgoing_ip: true``` will continue to work until *August 1, 2021*.  **Please move all configs to use the new flag as soon as possible to avoid job failures**.
 
 ## Example config that uses the IP Ranges IP feature
 
